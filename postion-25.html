@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Positioning Example</title>
+    <style>
+        .container {
+            position: relative;
+            width: 200px;
+            height: 200px;
+            background-color: lightblue;
+            margin: 50px auto;
+            border: 2px solid darkblue;
+        }
+
+        .icon {
+            position: absolute;
+            top: -20px;
+            left: 50%;
+            transform: translateX(-50%);/* Center horizontally by shifting left by half its width */
+            background-color: white;
+            border-radius: 50%;
+            padding: 10px 20px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+            border: 2px solid darkblue;
+        }
+
+        .content {
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="icon">Icon</div>
+        <div class="content">Content inside the container</div>
+    </div>
+</body>
+</html>

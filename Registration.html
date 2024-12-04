@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <style>
+        html,body{
+            height: 100%;
+            width: 100%;
+        }
+        .body1{
+            display: grid;
+            grid-template-columns: auto auto;
+            width: 100%;
+            height: 100%;
+        }
+        .body1 .content1{
+            background-color: aqua;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align:left;
+            }
+        .form1{
+            align-items: center;
+            margin-left: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div class="body1">
+        <div class="content1">
+            <h3> RJ <br>Technology</h3>
+            <h1 style="line-height: 0.5;">M.VERVE<br><span style="font-size:13px;font-weight: bold;line-height: 0;">&nbsp;&nbsp;&nbsp;&nbsp;Inspired Applications</span></h1>
+            <h5 style="margin-top: 1px;">&nbsp;To connect with us<br>
+            please enter the details</h5>
+        </div>
+        <div class="form1">
+            <h2>Create an account</h2>
+            <form>
+                <table>
+                <tr>
+                <td>Name<br><input type="text" placeholder="First Name"><br></td>
+                <td>Last Name<br><input type="text" placeholder="Last Name"><br></td>
+                <td>Age<br><input type="number" placeholder="18-100"><br></td>
+                </tr>
+                <tr>
+                <td>Number<br><input type="text" placeholder="** ** ** "><br></td>
+                <td>Email<br><input type="email" placeholder="abc@gmail.com"><br></td>
+                </tr>
+                <tr><td>Description<br><textarea style="width: 100%;"></textarea><br></td></tr>
+                <tr><td> Password<br><input type="password"><br>
+                Confirm Password<br><input type="password"><br></td></tr>
+                <tr><td><button>Submit</button>&nbsp;&nbsp;&nbsp;<button>Reset</button></td></tr>
+                </table>
+            </form>
+
+        </div>
+    </div>
+</body>
+</html>
